@@ -1,0 +1,22 @@
+{
+  "name": "ramadhan-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot to help ramadhan daily task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutory-my/Ramadhan-Bot.git"
+  },
+  "author": "ichiroadris, nabil anwar, ningtoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutory-my/Ramadhan-Bot/issues"
+  },
+  "homepage": "https://github.com/tutory-my/Ramadhan-Bot#readme",
+  "dependencies": {
+    "botgram": "^2.2.0"
+  }
+}
