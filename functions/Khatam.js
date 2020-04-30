@@ -1,6 +1,5 @@
 var methods = {
-    starter(msg) {
-        return "khatam is working"
+    starter(msg, reply) {
     }
 }
 

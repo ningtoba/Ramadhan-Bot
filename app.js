@@ -10,11 +10,11 @@ bot.command("start", (msg, reply, next) => {
 });
 
 bot.command("ping", (msg, reply, next) => {
-  reply.text("hai nabil")
+  reply.text("pong")
 })
 
 bot.command("Khatam", (msg, reply, next) => {
-  reply.text(khatam.starter())
+  khatam.starter(msg, reply)
 })
 
 bot.command("Resepi", (msg, reply, next) => {
@@ -26,7 +26,7 @@ bot.command("Hadis", (msg, reply, next) => {
 })
 
 bot.command("Solat", (msg, reply, next) => {
-  reply.text(solat.starter())
+  solat.starter(msg, reply)
 })
 
 

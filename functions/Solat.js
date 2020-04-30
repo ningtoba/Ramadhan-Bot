@@ -1,6 +1,6 @@
 var methods = {
-    starter(msg) {
-        return "solat is working"
+    starter(msg, reply) {
+
     }
 }
 
