@@ -1,6 +1,6 @@
 var methods = {
-    starter(msg) {
-        return "hadis is working"
+    starter(msg, reply) {
+        reply.text("hadis is working");
     }
 }
 

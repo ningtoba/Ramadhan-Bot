@@ -14,19 +14,19 @@ bot.command("ping", (msg, reply, next) => {
 })
 
 bot.command("Khatam", (msg, reply, next) => {
-    reply.text(khatam.starter())
+  reply.text(khatam.starter())
 })
 
 bot.command("Resepi", (msg, reply, next) => {
-    reply.text(resepi.starter())
+  resepi.starter(msg, reply)
 })
 
 bot.command("Hadis", (msg, reply, next) => {
-    reply.text(hadis.starter(msg))
+  hadis.starter(msg, reply)
 })
 
 bot.command("Solat", (msg, reply, next) => {
-    reply.text(solat.starter())
+  reply.text(solat.starter())
 })
 
 
