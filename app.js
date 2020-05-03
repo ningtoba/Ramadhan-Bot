@@ -29,6 +29,10 @@ bot.command("Solat", (msg, reply, next) => {
   solat.starter(msg, reply)
 })
 
+bot.command("time", function (msg, reply, next) {
+  reply.text("The current time is: " + Date());
+});
+
 
 bot.text((msg, reply, next) => {
   console.log("Received a text message:", msg.text);
