@@ -1,1 +1,0 @@
-module.exports = { telegraf_token: 'API_TOKEN' }
