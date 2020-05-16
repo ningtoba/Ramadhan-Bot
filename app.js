@@ -26,7 +26,7 @@ bot.command("Hadis", (msg, reply, next) => {
 })
 
 bot.command("Solat", (msg, reply, next) => {
-  solat.starter(msg, reply)
+  solat.starter(msg, reply, next)
 })
 
 bot.command("time", function (msg, reply, next) {

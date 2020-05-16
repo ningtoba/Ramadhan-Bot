@@ -32,7 +32,7 @@ timeConverter = (UNIX_timestamp) => {
 }
 
 var methods = {
-    starter(msg, reply) {
+    starter(msg, reply, next) {
         reply.text('Test solat function. Enter state').then;
         console.log(msg.text)
         if (msg.text == 'johor') {
