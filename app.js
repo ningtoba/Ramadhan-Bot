@@ -1,5 +1,6 @@
 const botgram = require("botgram")
-const bot = botgram("1167757073:AAFlp1EyzfQJWe-DYD7zdAwWQMYBbqZeS-4")
+const config = require('./config')
+const bot = botgram(config.token)
 const hadis = require('./functions/Hadis')
 const khatam = require('./functions/Khatam')
 const resepi = require('./functions/Resepi')
