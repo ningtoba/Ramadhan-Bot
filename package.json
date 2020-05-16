@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/tutory-my/Ramadhan-Bot#readme",
   "dependencies": {
-    "botgram": "^2.2.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "telegraf": "^3.38.0"
   }
 }

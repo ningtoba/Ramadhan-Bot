@@ -1,4 +1,5 @@
 const http = require('http');
+const telegraf = require('telegraf')
 
 var url = 'http://mpt.i906.my/mpt.json?filter=1&code='
 
@@ -32,13 +33,16 @@ timeConverter = (UNIX_timestamp) => {
 }
 
 var methods = {
-    starter(msg, reply, next) {
-        reply.text('Test solat function. Enter state').then;
+    starter(ctx) {
+        ctx.reply('Test solat function. Enter state');
         console.log(msg.text)
         if (msg.text == 'johor') {
             state = 'jhr-0'
             let timeData = getData(state)
-            reply.text(timeData)
+            ctx.reply(timeData)
+        }
+        else {
+            console.log('wrong')
         }
     }
 }

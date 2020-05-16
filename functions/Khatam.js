@@ -1,5 +1,5 @@
 var methods = {
-    starter(msg, reply) {
+    starter(ctx) {
     }
 }
 

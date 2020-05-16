@@ -13,7 +13,7 @@ const https = require('https');
 // })
 
 var methods = {
-    starter(msg, reply) {
+    starter(ctx) {
         console.log();
     }
 }
